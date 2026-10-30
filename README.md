@@ -102,7 +102,7 @@ erDiagram
 | Лаба | Что сделано | Сценарий |
 | --- | --- | --- |
 | 1 | Схема из 6 таблиц, ключи и ограничения, тестовые данные, генерация 1000+ строк, три плохие вставки | `demo/lab1.sql` |
-| 2 | ... | `demo/lab2.sql` |
+| 2 | 16 запросов: JOIN (до 4 таблиц), GROUP BY и HAVING, «сироты» через LEFT JOIN, подзапросы (IN, скалярный, NOT EXISTS), INSERT/UPDATE/DELETE в транзакциях с откатом; ★ CTE, ROW_NUMBER, SUM OVER, LAG, рекурсивный CTE | `demo/lab2.sql` |
 | 3 | ... | `demo/lab3.sql` |
 | 4 | ... | `demo/lab4.sql`, `demo/race.sql`, `demo/race_fixed.sql` |
 | 5 | ... | `demo/lab5.sql` |
