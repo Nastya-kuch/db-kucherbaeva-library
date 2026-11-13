@@ -103,7 +103,7 @@ erDiagram
 | --- | --- | --- |
 | 1 | Схема из 6 таблиц, ключи и ограничения, тестовые данные, генерация 1000+ строк, три плохие вставки | `demo/lab1.sql` |
 | 2 | 16 запросов: JOIN (до 4 таблиц), GROUP BY и HAVING, «сироты» через LEFT JOIN, подзапросы (IN, скалярный, NOT EXISTS), INSERT/UPDATE/DELETE в транзакциях с откатом; ★ CTE, ROW_NUMBER, SUM OVER, LAG, рекурсивный CTE | `demo/lab2.sql` |
-| 3 | ... | `demo/lab3.sql` |
+| 3 | 2 представления, функции issue_book и return_book, триггер лимита в 5 книг, триггер updated_at, журнал loans_audit; материализованное представление и поиск с фильтрами, журнал в jsonb и состояние на дату | `demo/lab3.sql` |
 | 4 | ... | `demo/lab4.sql`, `demo/race.sql`, `demo/race_fixed.sql` |
 | 5 | ... | `demo/lab5.sql` |
 
